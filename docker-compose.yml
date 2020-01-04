@@ -7,7 +7,7 @@ services:
     networks:
       frontend:
   upload:
-    image: upload:v20
+    image: upload:v3
     ports:
       - "8082:8080"
     networks:
