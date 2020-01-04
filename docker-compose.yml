@@ -6,6 +6,12 @@ services:
       - "80:8080"
     networks:
       frontend:
+  upload:
+    image: app:v:1
+    ports:
+      - "8082:8080"
+    networks:
+      frontend:
 networks:
   frontend:
     external: true
