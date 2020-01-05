@@ -1,7 +1,7 @@
 version: "3.5"
 services:
   crms:
-    image: crms:v19
+    image: crms:v20
     ports:
       - "8081:8080"
     networks:
